@@ -1,0 +1,16 @@
+{
+	"encoder": "gru",
+	"encoder_dim": 1000,
+	"bidir": true,
+	"checkpoint_path": "",
+	"vocab_configs": [
+	{
+		"mode": "fixed",
+		"name": "word_embedding",
+		"dim": 300,
+		"size": 50001,
+		"vocab_file": "",
+		"embs_file": ""
+	}
+	]
+}

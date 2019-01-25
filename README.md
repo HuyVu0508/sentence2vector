@@ -18,8 +18,6 @@ We design our model to solve 2 tasks:
 ### Semantic learning task - Classifying relevant sentences:
 Given the input sentence 𝑠 and a set of candidate sentences 𝑆_𝑐𝑎𝑛𝑑. The model has to point out the relevant context sentence 𝑠_𝑐𝑡𝑥𝑡. 
 
-![Optional Text](../master/equa1.png = 50x50)
-
 ### Grammatical learning task – Predicting POS tags:
 The model learns to predict POS tags for each word in the sentence. The loss is the cross entropy between predictions and POS tags labels.
 

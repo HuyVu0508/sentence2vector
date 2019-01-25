@@ -31,6 +31,20 @@ We test our encoder on 4 downstream tasks:
 - MSRP: Parapharse identification 
 - TREC: Question classification task
 
+## Results and Discussion
+- Our model performs as good as the original one on 2 tasks SICK and CR. On MSRP and TREC tasks, our model performs 2-3% better. 
+- This increase in accuracy maybe thanks to the ability of our encoder can capture both semantic and grammatical information of a sentence. 
+- *Caveat: This performance is not  as high as the model in original paper [1] due to our limited of resources.*
+
+## Future Works
+- Testing on downstream grammatical tasks (object number prediction, word order analysis, top constituents prediction).
+- Analyzing effects of regularizor 𝛼 (weights of grammar and semantic learning task) on trained encoder’s quality.
+- Simplifying decoder to stress more responsibility on encoder to encode more useful information.
+
+## References
+[1]. Lajanugen Logeswaran, Honglak Lee, “An efficient framework for learning sentence representations”. In ICLR, 2018
+
+
 
 
 

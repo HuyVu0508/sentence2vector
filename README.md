@@ -24,6 +24,8 @@ The model learns to predict POS tags for each word in the sentence. The loss is 
 ### Computing Total Loss:
 Total loss is the weighted sum of losses from two learning tasks. The weight 𝛼 is a hyper-parameter used to regularize semantic and grammartical learning task.
 
+![Optional Text](../master/src/model_overview.png)
+
 ## Experiements
 We test our encoder on 4 downstream tasks:
 - SICK: Sentence relatedness score prediction

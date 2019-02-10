@@ -37,7 +37,7 @@ We test our encoder on 4 downstream tasks:
 ## Results and Discussion
 - Our model performs as good as the original one on 2 tasks SICK and CR. On MSRP and TREC tasks, our model performs 2-3% better. 
 - This increase in accuracy maybe thanks to the ability of our encoder can capture both semantic and grammatical information of a sentence. 
-- *Caveat: This performance is not  as high as the model in original paper [1] due to our limited of resources.*
+- *Caveat: This performance is not  as high as the model in original paper [1] due to our limited of resources. We test both the original model and our proposed model on a smaller dataset with a shorter training time.*
 
 ## Future Works
 - Testing on downstream grammatical tasks (object number prediction, word order analysis, top constituents prediction).

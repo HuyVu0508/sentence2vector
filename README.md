@@ -30,7 +30,7 @@ The image below illustrates overview of our model:
 ## Experiements
 We test our encoder on 4 downstream tasks:
 - SICK: Sentence relatedness score prediction
-- CR: Movie review sentiment classification
+- CR: Movie review sentiment  classification
 - MSRP: Parapharse identification 
 - TREC: Question classification task
 
